@@ -336,8 +336,8 @@ function getURL (job, cfg, endpoint) {
   }
 
   return {
-    url,
-    headers
+    url: url,
+    headers: headers
   }
 }
 
