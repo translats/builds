@@ -1,23 +1,4 @@
 {
-	"translats/MetalWorks:master": {
-		"sonar": {
-			"enabled": false
-		},
-		"options": {
-			"prefix": "TEA",
-            "abandoned": false,
-            "createJar": true,
-            "ignoreTags": true
-		},
-		"dependencies": {
-			"Minecraft 版本": {
-				"1": "1.13.x, 1.14.x, 1.15.x, 1.16.x"
-			},
-			"CS-CoreLib 版本": {
-				"1": "<em>不再需要!</em>"
-			}
-		}
-	},
 	"buiawpkgew1/FN-FAL-s-Amplifications-zh:dev": {
 		"sonar": {
 			"enabled": false
@@ -37,7 +18,7 @@
 			}
 		}
 	},
-	"buiawpkgew1/FN-FAL-s-Amplifications-zh:main": {
+	"translats/MetalWorks:master": {
 		"sonar": {
 			"enabled": false
 		},
