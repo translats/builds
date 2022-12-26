@@ -1,6 +1,6 @@
 # Maven Builds Server
 This is the repository of the backend for my builds-page.
-The page can be found here: https://xmikux.github.io/builds/
+The page can be found here: https://translats.github.io/builds/
 
 This kinda serves as a "Continous Integration/Deployment" Service for Maven Projects which utilises static GitHub Pages.
 
