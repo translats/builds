@@ -84,7 +84,7 @@ function sendUpdate (webhook, job, cfg) {
       .setTitle(job.author + '/' + job.repo + ':' + job.branch + ' ( #' + job.id + ' )')
       .setColor(job.success ? 0X00FF00 : 0XFF0000)
       .setDescription(message)
-      .setURL('https://xmikux.github.io/builds/' + job.directory + '#' + job.id)
+      .setURL('https://translats.github.io/builds/' + job.directory + '#' + job.id)
       .setTimestamp(Date.now())
 
     // Send the embed via our webhook

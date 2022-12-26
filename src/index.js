@@ -1,5 +1,5 @@
 $(function() {
-    $.getJSON("https://xMikux.github.io/builds/resources/repos.json", repos => {
+    $.getJSON("https://translats.github.io/builds/resources/repos.json", repos => {
         $("#repos").html("");
         let profiles = [];
 
@@ -65,7 +65,7 @@ function addRepository(table, directory, owner, repo, branch, projectType) {
                 <a class="link_info" href="${directory}">${repo} (${branch})${projectType == 'abandoned' ? " [已無更新，官方建構頁面已標註棄用] [可能部分不是]" : ""}</a>
             </td>
             <td>
-                <img class="badge" alt="project badge" src="https://xmikux.github.io/builds/${directory}/badge.svg" />
+                <img class="badge" alt="project badge" src="https://translats.github.io/builds/${directory}/badge.svg" />
             </td>
         </tr>
     `);

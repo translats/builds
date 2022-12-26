@@ -4,7 +4,7 @@ $(() => {
     let repository = body.attr("repository");
     let branch = body.attr("branch");
 
-    $.getJSON("https://xMikux.github.io/builds/resources/repos.json", repos => {
+    $.getJSON("https://translats.github.io/builds/resources/repos.json", repos => {
         let info = repos[`${owner}/${repository}:${branch}`];
         let directory = `${owner}/${repository}/${branch}`;
 
@@ -132,7 +132,7 @@ $(() => {
             }
         }
 
-        $.getJSON(`https://xMikux.github.io/builds/${directory}/builds.json`, builds => {
+        $.getJSON(`https://translats.github.io/builds/${directory}/builds.json`, builds => {
             let last_successful = builds.last_successful;
 
             // Get currently selected Build
@@ -221,9 +221,9 @@ function createBadge(directory, language) {
     var url = "";
 
     if (language === "markdown") {
-        url = `[![Build Status](https://xMikux.github.io/builds/${directory}/badge.svg)](https://xMikux.github.io/builds/${directory})`;
+        url = `[![Build Status](https://translats.github.io/builds/${directory}/badge.svg)](https://translats.github.io/builds/${directory})`;
     } else if (language === "html") {
-        url = `<a href="https://xMikux.github.io/builds/${directory}"><img src="https://xMikux.github.io/builds/${directory}/badge.svg" alt="構建狀態"/></a>`;
+        url = `<a href="https://translats.github.io/builds/${directory}"><img src="https://translats.github.io/builds/${directory}/badge.svg" alt="構建狀態"/></a>`;
     }
 
     $("#badge_" + language).attr("value", url);
