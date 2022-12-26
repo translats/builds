@@ -7,7 +7,7 @@ const defaultConfig = {
     token: 'YOUR_GITHUB_ACCESS_TOKEN'
   },
   discord: {
-    enabled: false,
+    enabled: true,
     id: 'YOUR_DISCORD_WEBHOOK_ID',
     token: 'YOUR_DISCORD_WEBHOOK_TOKEN'
   },
