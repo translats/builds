@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< me.jasperchasetoq:DyeBench >---------------------
+[INFO] Building DyeBench TEA - 1 (git 98a888f2)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.pom (3.5 kB at 7.5 kB/s)
+[INFO] Downloading from paper-repo: https://repo.destroystokyo.com/repository/maven-public/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar
+[INFO] Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar
+[INFO] Downloading from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar
+[INFO] Downloaded from jitpack.io: https://jitpack.io/com/github/JasperChaseTOQ/WolfyLibrary/v1.1.7/WolfyLibrary-v1.1.7.jar (41 kB at 80 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DyeBench ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DyeBench ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ DyeBench ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/runner/work/builds/builds/translats/DyeBench/master/files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ DyeBench ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/translats/DyeBench/master/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ DyeBench ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ DyeBench ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ DyeBench ---
+[INFO] Building jar: /home/runner/work/builds/builds/translats/DyeBench/master/files/target/DyeBench-1.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.4.0:shade (default) @ DyeBench ---
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:3.0.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:3.0.0 in the shaded jar.
+[INFO] Including com.github.JasperChaseTOQ:WolfyLibrary:jar:v1.1.7 in the shaded jar.
+[INFO] Dependency-reduced POM written at: /home/runner/work/builds/builds/translats/DyeBench/master/files/dependency-reduced-pom.xml
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/translats/DyeBench/master/files/target/DyeBench-1.jar with /home/runner/work/builds/builds/translats/DyeBench/master/files/target/DyeBench-TEA - 1 (git 98a888f2)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.534 s
+[INFO] Finished at: 2022-12-26T08:18:26Z
+[INFO] ------------------------------------------------------------------------
