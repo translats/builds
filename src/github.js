@@ -292,7 +292,7 @@ function pushChanges (job, logging) {
       const commit = process.spawn('git', [
         'commit',
         '-m',
-        (job.success ? '编译成功: ' : '编译失败: ') + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')'
+        (job.success ? 'Successfully compiled: ' : 'Failed to compile: ') + job.author + '/' + job.repo + ':' + job.branch + ' (' + job.id + ')'
       ])
 
       commit.childProcess.stdout.on('data', (data) => log(logging, '-> ' + data))
