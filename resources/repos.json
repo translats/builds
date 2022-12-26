@@ -55,24 +55,5 @@
 				"1": "<em>不再需要!</em>"
 			}
 		}
-	},
-	"SlimefunGuguProject/Bump:main": {
-		"sonar": {
-			"enabled": false
-		},
-		"options": {
-			"prefix": "GUGU",
-            "abandoned": false,
-            "createJar": false,
-            "ignoreTags": true
-		},
-		"dependencies": {
-			"建構資訊": {
-				"1": "<a class=\"link_info\" href=\"https://builds.guizhanss.net/SlimefunGuguProject/Bump/main/\"點擊這裡到建構網站</a> 此建構為外部網站, 請從該網站進行下載"
-		    },
-			"Minecraft 版本": {
-				"1": "1.14+"
-			}
-		}
 	}
 }
