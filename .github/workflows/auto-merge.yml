@@ -36,7 +36,7 @@ jobs:
         
   autosquash-normal:
 
-    name: Auto squash (Normal)
+    name: Auto squash (常态)
     runs-on: ubuntu-latest
 
     if: github.event.pull_request.head.repo.full_name == 'translats/builds'
