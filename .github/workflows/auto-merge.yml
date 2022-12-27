@@ -20,7 +20,7 @@ jobs:
     name: Auto squash (CI skip)
     runs-on: ubuntu-latest
 
-    if: github.event.pull_request.head.repo.full_name == 'ybw0014/guizhan-builds'
+    if: github.event.pull_request.head.repo.full_name == 'translats/builds'
 
     steps:
     - name: Auto squash
