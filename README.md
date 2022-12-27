@@ -1,4 +1,5 @@
 # Maven构建服务器
+[原来](https://github.com/xMikux/builds)
 This is the repository of the backend for my builds-page.
 The page can be found here: https://translats.github.io/builds/
 
