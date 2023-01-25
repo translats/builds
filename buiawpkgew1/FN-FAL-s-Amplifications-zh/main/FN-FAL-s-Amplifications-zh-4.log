@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< ne.fnfal113:FNAmplifications >--------------------
+[INFO] Building FNAmplifications TEA - 4 (git fdb84c8c)
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.github.StarWishsama:Slimefun4:jar:c95f5785cc is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for net.guizhanss:GuizhanLib-api:jar:1.1.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ FNAmplifications ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ FNAmplifications ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ FNAmplifications ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 189 source files to /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/target/classes
+[INFO] /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/src/main/java/ne/fnfal113/fnamplifications/materialgenerators/implementations/CustomMaterialGenerator.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/src/main/java/ne/fnfal113/fnamplifications/materialgenerators/implementations/CustomMaterialGenerator.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/src/main/java/ne/fnfal113/fnamplifications/utils/pdc/ItemStackListPdcType.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/src/main/java/ne/fnfal113/fnamplifications/utils/pdc/ItemStackListPdcType.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ FNAmplifications ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ FNAmplifications ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ FNAmplifications ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ FNAmplifications ---
+[INFO] Building jar: /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/target/FN-FAL-s-Amplifications-zh-4.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.4.0:shade (default) @ FNAmplifications ---
+[INFO] Including net.guizhanss:ExtraUtils:jar:bf89aee6ae in the shaded jar.
+[INFO] Including org.bstats:bstats-bukkit:jar:3.0.0 in the shaded jar.
+[INFO] Including org.bstats:bstats-base:jar:3.0.0 in the shaded jar.
+[INFO] Minimizing jar ne.fnfal113:FNAmplifications:jar:TEA - 4 (git fdb84c8c)
+[WARNING] /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/target/classes (Is a directory)
+[INFO] Minimized 252 -> 241 (95%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/target/FN-FAL-s-Amplifications-zh-4.jar with /home/runner/work/builds/builds/buiawpkgew1/FN-FAL-s-Amplifications-zh/main/files/target/FNAmplifications-TEA - 4 (git fdb84c8c)-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.867 s
+[INFO] Finished at: 2023-01-25T04:53:58Z
+[INFO] ------------------------------------------------------------------------
